@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+body h2 {
+  font-size: 4rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem;
+}
+body h2 span {
+  color: rgb(74, 74, 211);
+}
+body .but {
+  padding: 1rem 3rem;
+  margin: 1rem 2rem;
+  background-color: rgb(92, 92, 194);
+  color: #fff;
+  border: 1px dotted rgb(92, 92, 194);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.but:hover {
+  background-color: rgb(4, 48, 48);
+}
+
+table {
+  padding: 3rem;
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 1.3rem;
+}
+table th {
+  color: rgb(92, 92, 194);
+  font-size: 1.6rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 2rem;
+}
+table td {
+  color: #fff;
+}/*# sourceMappingURL=video.css.map */
