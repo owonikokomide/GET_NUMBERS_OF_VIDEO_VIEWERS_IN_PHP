@@ -10,7 +10,7 @@
   <div class="container">
     <h1>Upload a video</h1>
     <form action="" method="POST" enctype="multipart/form-data">
-      <input type="file" name="video" required accept="video/">
+      <input type="file"  name="video" required accept="video/">
       <input type="submit" name="submit">
     </form>
   </div>
