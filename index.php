@@ -29,7 +29,7 @@ $n = move_uploaded_file($tmp, $destination);
   $select = "SELECT * FROM link";
 // $select_query = mysqli_query($connection, $select);
 $checkexist = mysqli_query($connection,"SELECT * FROM link where video_name='$video'");
-// 
+
 if(mysqli_num_rows($checkexist)==1){
 echo "Video already exist";
 }else{
