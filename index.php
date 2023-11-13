@@ -15,7 +15,7 @@
     </form>
   </div>
 </body>
-</html> 
+</html>  
 <?php 
 if(isset($_POST['submit'])){
   $video = $_FILES['video']['name'];
