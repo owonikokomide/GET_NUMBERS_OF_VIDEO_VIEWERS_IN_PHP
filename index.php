@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>upload video</title>
 </head>
-<body>
+<body> 
   <div class="container">
     <h1>Upload a video</h1> 
     <form action="" method="POST" enctype="multipart/form-data">
