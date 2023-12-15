@@ -7,7 +7,7 @@
   <title>upload video</title>
 </head>
 <body> 
-  <div class="container">
+  <div class="container"> 
     <h1>Upload a video</h1> 
     <form action="" method="POST" enctype="multipart/form-data">
       <input type="file"  name="video" required accept="video/">
