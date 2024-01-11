@@ -1,4 +1,4 @@
-<?php
+<?php 
 include('config.php'); 
 // echo $_GET['product_id'];
 if (isset($_GET['product_id'])) {
