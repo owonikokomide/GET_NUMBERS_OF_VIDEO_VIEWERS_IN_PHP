@@ -11,7 +11,7 @@ if($update){
 //  echo "succesful";
 }
 } 
-?>
+?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
