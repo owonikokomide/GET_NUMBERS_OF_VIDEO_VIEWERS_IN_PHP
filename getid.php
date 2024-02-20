@@ -8,7 +8,7 @@ if (isset($_GET['product_id'])) {
   $row = mysqli_fetch_array($result);
   $view = $row['views']+1;
   $update = mysqli_query($connection,"UPDATE link SET views='$view' WHERE id  = '$product_id' "); 
-  if ($update) {
+  if ($update) { 
     // $response = "watched";
     echo $view;
   } else {
