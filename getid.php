@@ -1,6 +1,6 @@
 <?php 
 include('config.php');   
-// echo $_GET['product_id'];
+// echo $_GET['product_id']; 
 if (isset($_GET['product_id'])) {
   $product_id = $_GET['product_id'];
   $sql = "SELECT * FROM link  WHERE id  = '$product_id'";
