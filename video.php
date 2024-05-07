@@ -9,7 +9,7 @@ if(isset($_POST['play'])){
 $update = mysqli_query($connection,"UPDATE link SET views ='$r' WHERE id ='$id'"); 
 if($update){
 //  echo "succesful"; 
-}
+} 
 } 
 ?> 
 <!DOCTYPE html>
