@@ -11,7 +11,7 @@ if (isset($_GET['product_id'])) {
   if ($update) { 
     // $response = "watched";
     echo $view;
-  } else {
+  } else { 
       echo json_encode(['error' => 'Product not found']);
   }
 }
